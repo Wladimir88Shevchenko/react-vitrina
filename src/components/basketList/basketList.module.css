@@ -1,0 +1,11 @@
+.closeIcon{
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    bottom: 2rem;
+    right: 1.2rem;
+}
+
+.closeIcon:hover{
+    color: #26a69a;
+}

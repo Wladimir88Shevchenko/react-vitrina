@@ -1,0 +1,28 @@
+.mainContainer {
+    padding: 2rem 0;
+    min-height: calc(100vh - 64px - 70px);
+}
+
+.basketIcon{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 5;
+}
+
+@media (min-width: 767px){
+    .basketIcon{
+        top: 3.9rem;
+        bottom: unset;
+    }
+}
+
+.basketCard{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50rem;
+    max-width: 90%;
+    z-index: 5;    
+}

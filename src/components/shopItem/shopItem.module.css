@@ -1,0 +1,46 @@
+.mainContainer {
+    width: 400px;
+    max-width: 100%;
+}
+
+/* card */
+.mainContainer>div {
+    padding-bottom: 1rem;
+    /* min-height: 608px; */
+}
+
+/* .content{
+    background-color: rgb(48, 23, 160);
+} */
+
+
+.mainContainer .cardContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainContainer .cardContent span {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin: 0 !important;
+}
+
+button {
+    color: white;
+    width: 200px;
+    height: 70px;
+    font-size: 2.5rem;
+    margin: 0 auto;
+    display: block;
+}
+
+button {
+    background-color: #006064;
+    color: white;
+}
+
+button:hover {
+    background-color: #b2ebf2;
+    color: black;
+    cursor: pointer;
+}

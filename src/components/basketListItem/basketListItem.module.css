@@ -1,0 +1,8 @@
+.subAddIconBasket{
+    vertical-align: middle;
+}
+
+.subAddIconBasket:hover{
+    color: #006064;
+    cursor: pointer;
+}

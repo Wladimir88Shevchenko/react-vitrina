@@ -1,0 +1,11 @@
+.icaonWrapper{
+    background-color: #4dd0e1;
+    color: black;
+    padding: 0.3rem
+}
+
+.icaonWrapper:hover{
+    color: white;
+    background-color: #00838f;
+    cursor: pointer;
+}
